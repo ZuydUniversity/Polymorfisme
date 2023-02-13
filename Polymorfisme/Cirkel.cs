@@ -15,10 +15,10 @@ namespace Polymorfisme
             return Math.PI * Straal * Straal;
         }
 
-        public Cirkel(string _name, double _straal)
+        public Cirkel(string name, double straal)
         {
-            Name = _name;
-            Straal = _straal;
+            Name = name;
+            Straal = straal;
         }
     }
 }

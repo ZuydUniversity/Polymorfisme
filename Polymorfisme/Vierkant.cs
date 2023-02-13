@@ -15,10 +15,10 @@ namespace Polymorfisme
             return Rib * Rib;
         }
 
-        public Vierkant(string _name, double _rib)
+        public Vierkant(string name, double rib)
         {
-            Name = _name;
-            Rib = _rib;
+            Name = name;
+            Rib = rib;
         }
     }
 }
